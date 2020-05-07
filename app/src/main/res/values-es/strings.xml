@@ -1,0 +1,610 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Control de Gastos</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_login">Bienvenido</string>
+
+    <!--Welcome-->
+
+    <string name="welcome">Bienvenido!</string>
+    <string name="welcome_first_page">Podras mantener el control de tus gastos diarios! Mira tus gastos rápidamente por día, semana y mes!</string>
+    <string name="second_page_desc">Toma ventaja de las estadísticas mostradas para identificar en que gastas más</string>
+    <string name="third_page_desc">Crea recordatorios para recibir una notificación de cuando se vencen tus deudas</string>
+    <string name="money_desc">money_icon</string>
+    <string name="credit_card_content_desc">credit card icon</string>
+    <string name="saving_money_content_desc">saving money icon</string>
+
+    <!--General-->
+    <string name="expenses">Gastos</string>
+    <string name="income">Ganancias</string>
+    <string name="categories">Categorías</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="reminders">Recordatorios</string>
+    <string name="confirm">Confirmar</string>
+    <string name="delete">Borrar</string>
+    <string name="confirm_delete">"Estas seguro de borrar "</string>
+    <string name="save">Guardar</string>
+    <string name="create_category">Crear una Categoría</string>
+    <string name="cancel">Cancelar</string>
+    <string name="today">Hoy</string>
+    <string name="week">Semana</string>
+    <string name="month">Mes</string>
+    <string name="error_total">Porfavor ingresa un total</string>
+    <string name="description">Descripción</string>
+    <string name="add_new_expense">Añade un nuevo Gasto</string>
+    <string name="optional_description">Descripción (Opcional)</string>
+    <string name="total">Total</string>
+    <string name="confirm_delete_items">Seguro de borrar este/estos item(s)</string>
+    <string name="confirm_delete_expense">Seguro de borrar este gasto?</string>
+    <string name="expense_prefix">- <xliff:g id="amount" example="100.00">%s</xliff:g></string>
+    <string name="income_prefix">+ <xliff:g id="amount" example="100.00">%s</xliff:g></string>
+    <string name="country_currency">Moneda del país</string>
+    <string name="pref_country_key">country_key</string>
+    <string name="default_country">US</string>
+    <string name="title_activity_expense_detail">Detalle del Gasto</string>
+    <string name="tv_title_transition">tvTotalTransition</string>
+    <string name="date_placeholder">placeholder de la fecha</string>
+    <string name="to_date">Desde</string>
+    <string name="date_from">Hasta</string>
+    <string name="categories_percentage">Porcentage de las Categorías</string>
+    <string name="total_expenses_per_category">Total de Gastos por categoría</string>
+    <string name="Save">Guardar</string>
+    <string name="hour_format"><xliff:g id="hour" example="09">%02d</xliff:g>:<xliff:g id="minute" example="09">%02d</xliff:g></string>
+    <string name="reminder_name_validation">Asigna un nombre al recordatorio</string>
+    <string name="pick_day_of_month">Selecciona un día del mes</string>
+    <string name="confirm_reminder_delete">Seguro de borrar este recordatorio?</string>
+    <string name="this_week">Esta semana</string>
+    <string name="reminder_name_hint">Ej. Compañía de la Tarjeta de Crédito</string>
+    <string name="reminder_schedule_title">El recordatorio esta guardado para el día: (Día del mes)</string>
+    <string name="reminder_time_sent_title">Será enviado a la siguiente hora:</string>
+    <string name="reminder_help">Crea un recordatorio para recibir una notificación en cada día del mes para recordar cuando se vencen tus deudas.\n Una notificación te hará recordar cuando se ha asignado. \nRecuerda que puedes apagar el recordatorio cuando desees.</string>
+    <string name="create_a_reminder">Crea un recordatorio</string>
+    <string name="edit_a_reminder">Edita un Recordatorio</string>
+    <string name="expense_detail">Detalle de un Gasto</string>
+    <string name="same_category_this_week">Otros gastos en esta categoría esta semana:</string>
+    <string name="start_using_expense">Empieza a user Control de Gastos!</string>
+    <string name="reminders_empty">No se encontraron recordatorios. Agrega uno para recordar fechas importantes</string>
+    <string name="categories_empty">No se encontraron categorías. Empieza creando algunas para poder tomar ventaja de las estadísticas.</string>
+    <string name="no_chart_data">No hay información disponible</string>
+    <string name="no_categories_error">Crea categorías para poder registrar gastos</string>
+    <string name="today_expenses_total">Hoy: %s</string>
+    <string name="no_expenses_today">No hay gastos hoy</string>
+    <string name="start">Inicio</string>
+    <string name="hint_category">Ej. Comida</string>
+    <string name="pick_dates">Selecciona un rango de fechas</string>
+    <string name="edit_category">Editar Categoría</string>
+    <string name="history">Historial</string>
+    <string name="action_help">Ayuda</string>
+    <string name="help_text">Puedes borrar Gastos, Categorías y Recordatorios si mantienes presionado un item. Puedes seleccionar varios elementos al mismo tiempo.\n\nElige la fecha en la que deseas crear el gasto en la ventana de Nuevo Gasto.\n\nCrea recordatorios que se crearan para ayudarte a recordar fechas importantes.\n\nEdita el nombre de la categoría presionando en un item.\n\nAlguna duda o sugerencia no dudes en contactar carrillochero6@gmail.com</string>
+    <string name="export">Exportar</string>
+    <string name="write_external_message">Expense Tracker creara archivos en memoria para poder exportar tu data.</string>
+    <string name="ok">Ok</string>
+    <string name="expenses_mail_content">Record de tus gastos por Expense Tracker</string>
+    <string name="share_title">Envia tus gastos a tu mail.</string>
+    <string name="error_name">Porfavor ingresa un nombre</string>
+    <string name="title_activity_help">Ayuda</string>
+    <string name="default_date_format">MM/dd/yyyy</string>
+    <string name="date_format_key">date_format_key</string>
+    <string name="date_format">Date Format</string>
+
+
+    <string-array name="date_formats">
+        <item>MM/dd/yyyy</item>
+        <item>dd/MM/yyyy</item>
+    </string-array>
+
+    <string-array name="reminder_days_available">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <!--Countries-->
+    <string-array name="countries_names">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Curacao</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea	</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands	</item>
+        <item>Fiji	</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon	</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana	</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau	</item>
+        <item>Guyana</item>
+        <item>Haiti	</item>
+        <item>Honduras	</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan </item>
+        <item>Kenya	</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao	</item>
+        <item>Macedonia	</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali	</item>
+        <item>Malta	</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru	</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles	</item>
+        <item>New Caledonia	</item>
+        <item>New Zealand</item>
+        <item>Nicaragua	</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau	</item>
+        <item>Palestine	</item>
+        <item>Panama</item>
+        <item>Papua New Guinea	</item>
+        <item>Paraguay</item>
+        <item>Peru	</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar	</item>
+        <item>Republic of the Congo</item>
+        <item>Reunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe	</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore	</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>South Sudan</item>
+        <item>Spain	</item>
+        <item>Sri Lanka</item>
+        <item>Sudan	</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria	</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand	</item>
+        <item>Togo	</item>
+        <item>Tokelau</item>
+        <item>Tonga </item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan </item>
+        <item>Vanuatu </item>
+        <item>Vatican  </item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="country_values" tools:ignore="InconsistentArrays">
+        <item>AF</item>
+        <item>AL</item>
+        <item>DZ</item>
+        <item>AS</item>
+        <item>AD</item>
+        <item>AO</item>
+        <item>AI</item>
+        <item>AQ</item>
+        <item>AG</item>
+        <item>AR</item>
+        <item>AM</item>
+        <item>AW</item>
+        <item>AU</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BS</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BB</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BZ</item>
+        <item>BJ</item>
+        <item>BM</item>
+        <item>BT</item>
+        <item>BO</item>
+        <item>BA</item>
+        <item>BW</item>
+        <item>BR</item>
+        <item>IO</item>
+        <item>VG</item>
+        <item>BN</item>
+        <item>BG</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>KH</item>
+        <item>CM</item>
+        <item>CA</item>
+        <item>CV</item>
+        <item>KY</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>CL</item>
+        <item>CN</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CO</item>
+        <item>KM</item>
+        <item>CK</item>
+        <item>CR</item>
+        <item>HR</item>
+        <item>CU</item>
+        <item>CW</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>CD</item>
+        <item>DK</item>
+        <item>DJ</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>TL</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>EE</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FO</item>
+        <item>FJ</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>PF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GU</item>
+        <item>GT</item>
+        <item>GG</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>HK</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IL</item>
+        <item>IT</item>
+        <item>CI</item>
+        <item>JM</item>
+        <item>JP</item>
+        <item>JE</item>
+        <item>JO</item>
+        <item>KA</item>
+        <item>KE</item>
+        <item>KI</item>
+        <item>XK</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LV</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MO</item>
+        <item>MK</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>MY</item>
+        <item>MV</item>
+        <item>ML</item>
+        <item>MT</item>
+        <item>MH</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MX</item>
+        <item>FM</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>MN</item>
+        <item>ME</item>
+        <item>MS</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NR</item>
+        <item>NP</item>
+        <item>NL</item>
+        <item>AN</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NI</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>NU</item>
+        <item>KP</item>
+        <item>MP</item>
+        <item>NO</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PW</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PG</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>PN</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>PR</item>
+        <item>QA</item>
+        <item>CG</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>BL</item>
+        <item>SH</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>MF</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>WS</item>
+        <item>SM</item>
+        <item>ST</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SG</item>
+        <item>SX</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>SB</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>KR</item>
+        <item>SS</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SJ</item>
+        <item>SZ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TG</item>
+        <item>TK</item>
+        <item>TO</item>
+        <item>TT</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>TC</item>
+        <item>TV</item>
+        <item>VI</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VU</item>
+        <item>VA</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>WF</item>
+        <item>EH</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+</resources>

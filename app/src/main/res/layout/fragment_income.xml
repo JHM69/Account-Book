@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@color/primary"
+            android:orientation="vertical"
+            android:paddingBottom="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_descrtion"
+                style="@style/ExpenseTrackerTextView"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen_15dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Total Income"
+                android:textColor="@color/white9f"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:clipToPadding="true"
+                android:foreground="@drawable/card_foreground"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/primary_dark"
+                app:cardPreventCornerOverlap="true">
+
+                <TextView
+                    android:id="@+id/tv_total_incomem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="1dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:foregroundGravity="center_vertical"
+                    android:gravity="center|center_vertical"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/text_size_35"
+                    tools:text="6744320" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allNotesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</LinearLayout>

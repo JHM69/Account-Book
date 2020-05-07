@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rahat_jnu.expensetracker">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ExpenseTrackerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Account Book"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ui.Login.SingUp"></activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="Account Book"
+            android:theme="@style/AppTheme.NoActionBar.TransparentStatusBar"></activity>
+        <activity
+            android:name=".ui.Login.LoginActivity"
+            android:configChanges="orientation"
+            android:label="Account Book"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.TransparentStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:label="Account Book"></activity>
+        <activity
+            android:name=".ui.expenses.ExpenseDetailActivity"
+            android:label="@string/title_activity_expense_detail"></activity>
+        <activity android:name=".ui.reminders.NewReminderActivity"></activity>
+
+        <receiver android:name=".receivers.AlarmReceiver"></receiver>
+        <receiver
+            android:name=".receivers.AlarmsSystemBooted"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".widget.ExpensesWidgetProvider"
+            android:label="Account Book">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.pedrocarrillo.expensetracker.widget.ExpensesWidgetService.UPDATE_WIDGET" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider" />
+        </receiver>
+
+        <service
+            android:name=".widget.ExpensesWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name=".ui.help.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.note.NoteActivity"
+            android:label="Note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.note.Detail"
+            android:label="Note Details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.note.Edit"
+            android:label="Edit Note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ui.note.AddNote"
+            android:label="Add Note"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

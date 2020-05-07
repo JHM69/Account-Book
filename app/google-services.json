@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "701751716718",
+    "firebase_url": "https://cse-jnu.firebaseio.com",
+    "project_id": "cse-jnu",
+    "storage_bucket": "cse-jnu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701751716718:android:cbf8a701ea921b149e6f7f",
+        "android_client_info": {
+          "package_name": "com.jhm69.cse11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701751716718-62j56bnmv5rmd86b6nm6iuo9b5eg0cp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjPI6la7jnLyqm8PF2kCuOqebpXHl7WfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701751716718-62j56bnmv5rmd86b6nm6iuo9b5eg0cp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701751716718:android:d3fd6b1e066707529e6f7f",
+        "android_client_info": {
+          "package_name": "com.rahat_jnu.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701751716718-ccdjs9nuj6v7g2bup9tg2dh3ugg71scm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahat_jnu.expensetracker",
+            "certificate_hash": "cbd266b90917b64da2dc5c274ac04c3286d5a6df"
+          }
+        },
+        {
+          "client_id": "701751716718-62j56bnmv5rmd86b6nm6iuo9b5eg0cp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjPI6la7jnLyqm8PF2kCuOqebpXHl7WfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701751716718-62j56bnmv5rmd86b6nm6iuo9b5eg0cp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
